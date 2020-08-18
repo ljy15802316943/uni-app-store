@@ -1,0 +1,99 @@
+page {
+  width: 100%;
+  height: 100%;
+}
+.login {
+  position: relative;
+  overflow: hidden;
+}
+.login .back-btn {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  font-size: 20px;
+  color: #303133;
+  z-index: 9999;
+}
+.login .content {
+  width: 88%;
+  height: auto;
+  margin: auto;
+  margin-top: 8rem;
+}
+.login .content .title {
+  font-size: 46rpx;
+  color: #555;
+  text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+}
+.login .content .input-phone {
+  width: 100%;
+  height: 3.5rem;
+  background-color: #f8f6fc;
+  border-radius: 10rpx;
+  margin-top: 2rem;
+  padding: 0.3rem;
+  box-sizing: border-box;
+}
+.login .content .input-phone text {
+  font-size: 26rpx;
+  color: #606266;
+}
+.login .content .input-phone uni-input {
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+.login .content .input-password {
+  width: 100%;
+  height: 3.5rem;
+  background-color: #f8f6fc;
+  border-radius: 10rpx;
+  margin-top: 1rem;
+  padding: 0.3rem;
+  box-sizing: border-box;
+}
+.login .content .input-password text {
+  font-size: 26rpx;
+  color: #606266;
+}
+.login .content .input-password uni-input {
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+.login .content .button {
+  border-radius: 100rpx;
+  margin-top: 2rem;
+}
+.login .content .forgot-password {
+  color: #4399fc;
+  font-size: 26rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-top: 1rem;
+}
+.login .footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 1.5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.login .footer .text-1 {
+  font-size: 26rpx;
+  color: #606266;
+}
+.login .footer .text-2 {
+  font-size: 26rpx;
+  color: #4399fc;
+  margin-left: 5rpx;
+}
+

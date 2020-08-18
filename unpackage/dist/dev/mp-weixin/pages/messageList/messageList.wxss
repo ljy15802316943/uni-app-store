@@ -1,0 +1,75 @@
+page {
+  background-color: #ededed;
+}
+.message-list {
+  width: 100%;
+  height: auto;
+  padding-bottom: 0.8rem;
+  box-sizing: border-box;
+}
+.message-list .message-box {
+  width: 100%;
+  height: auto;
+  padding: 0rem 0.5rem;
+  box-sizing: border-box;
+}
+.message-list .message-box .message-text {
+  width: 100%;
+  height: 2.3rem;
+  font-size: 26rpx;
+  color: #7d7d7d;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.message-list .message-box .message-content {
+  width: 100%;
+  height: auto;
+  padding: 0rem 0.5rem;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+}
+.message-list .message-box .message-content .content-text1 {
+  width: 100%;
+  height: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 32rpx;
+  color: #303133;
+}
+.message-list .message-box .message-content .content-image {
+  width: 100%;
+  height: 7.5rem;
+}
+.message-list .message-box .message-content .content-text2 {
+  width: 100%;
+  height: auto;
+  font-size: 28rpx;
+  color: #606266;
+  padding: 0.2rem 0rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #E4E7ED;
+}
+.message-list .message-box .message-content .content-text3 {
+  width: 100%;
+  height: 2rem;
+  font-size: 24rpx;
+  color: #707070;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+

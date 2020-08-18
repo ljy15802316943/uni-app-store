@@ -1,0 +1,119 @@
+.share {
+  width: 100%;
+  height: 100%;
+}
+.share-box {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0rpx;
+  left: 0rpx;
+  bottom: 0rpx;
+  right: 0rpx;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  z-index: 999;
+}
+.share-show {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-transform: translateY(0%) !important;
+          transform: translateY(0%) !important;
+}
+.share-item {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: #FFFFFF;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  z-index: 1999;
+}
+.share-item .share-to {
+  width: 100%;
+  height: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.share-item .share-to::after {
+  content: '';
+  width: 240rpx;
+  height: 0rpx;
+  border-top: 1px solid #E4E7ED;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  margin-left: 30rpx;
+}
+.share-item .share-to::before {
+  content: '';
+  width: 240rpx;
+  height: 0rpx;
+  border-top: 1px solid #E4E7ED;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  margin-right: 30rpx;
+}
+.share-item .content {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.share-item .content .block {
+  width: 33%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 180rpx;
+}
+.share-item .content .block image {
+  width: 80rpx;
+  height: 80rpx;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.share-item .content .block text {
+  margin-top: 16rpx;
+  font-size: 28rpx;
+  color: #606266;
+}
+.share-item .cancel {
+  width: 100%;
+  height: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border-top: 1rpx solid #E4E7ED;
+}
+
